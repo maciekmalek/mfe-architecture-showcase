@@ -18,6 +18,15 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Setup Yarn v4
+        run: yarn set version latest
+
+      - name: Install dependencies
+        run: yarn install
+
       - name: Validate structure
         run: |
           echo "✓ Monorepo structure validated"

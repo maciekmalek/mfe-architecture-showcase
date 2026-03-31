@@ -8,13 +8,18 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm --prefix apps/shell run build && npm --prefix apps/dashboard run build && npm --prefix apps/checkout run build && npm --prefix apps/settings run build",
+    "build": "nx run-many --targets=build --all --parallel",
+    "dev": "nx run-many --targets=dev --all",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "lint": "nx run-many --targets=lint --all"
   },
   "devDependencies": {
+    "@nx/next": "^19.0.0",
+    "@nx/react": "^19.0.0",
+    "@nx/workspace": "^19.0.0",
     "@playwright/test": "^1.40.0",
     "@testing-library/jest-dom": "^6.1.0",
     "@testing-library/react": "^14.0.0",
@@ -26,6 +31,7 @@
     "eslint": "^8.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "nx": "^19.0.0",
     "typescript": "^5.0.0"
   },
   "dependencies": {

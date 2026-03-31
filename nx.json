@@ -1,0 +1,29 @@
+{
+  "extends": "nx/presets/npm.json",
+  "plugins": [
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "dev",
+        "buildTargetName": "build",
+        "testTargetName": "test"
+      }
+    }
+  ],
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint"]
+      }
+    }
+  },
+  "targetDefaults": {
+    "build": {
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    }
+  }
+}

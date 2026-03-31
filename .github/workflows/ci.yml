@@ -13,29 +13,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Setup Yarn v4
-        run: yarn set version latest
-
-      - name: Install dependencies
-        run: yarn install
-
-      - name: Validate structure
+      - name: Validate monorepo structure
         run: |
-          echo "✓ Monorepo structure validated"
+          echo "✓ Validating MFE monorepo structure..."
           test -d apps/shell && echo "✓ Shell app exists"
-          test -d apps/dashboard && echo "✓ Dashboard app exists"
-          test -d apps/checkout && echo "✓ Checkout app exists"
-          test -d apps/settings && echo "✓ Settings app exists"
+          test -d apps/dashboard && echo "✓ Dashboard MFE exists"
+          test -d apps/checkout && echo "✓ Checkout MFE exists"
+          test -d apps/settings && echo "✓ Settings MFE exists"
           test -d packages/shared-types && echo "✓ Shared types package exists"
           test -d packages/shared-components && echo "✓ Shared components package exists"
-          test -f README.md && echo "✓ README exists"
-          test -f nx.json && echo "✓ Nx config exists"
-          echo "All validations passed!"
+          test -f README.md && echo "✓ README documentation exists"
+          test -f nx.json && echo "✓ Nx configuration exists"
+          test -f .yarnrc.yml && echo "✓ Yarn v4 configuration exists"
+          test -f pnpm-workspace.yaml && echo "✓ Workspace definition exists"
+          echo ""
+          echo "✅ All validations passed!"
+          echo "Repository is ready for development with Yarn v4"

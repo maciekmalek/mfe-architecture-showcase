@@ -1,0 +1,34 @@
+{
+  "name": "mfe-architecture-showcase",
+  "version": "1.0.0",
+  "description": "Production-ready micro-frontend architecture with Module Federation, event orchestration, and E2E testing",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "nx run-many --targets=dev --all",
+    "build": "nx run-many --targets=build --all",
+    "test": "nx run-many --targets=test --all",
+    "test:e2e": "nx run-many --targets=e2e --all",
+    "lint": "nx run-many --targets=lint --all"
+  },
+  "devDependencies": {
+    "@nx/next": "^19.0.0",
+    "@nx/react": "^19.0.0",
+    "@nx/workspace": "^19.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "nx": "^19.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

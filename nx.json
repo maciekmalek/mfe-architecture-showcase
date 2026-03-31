@@ -1,0 +1,14 @@
+{
+  "extends": "nx/presets/npm.json",
+  "plugins": [
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "startTargetName": "dev",
+        "buildTargetName": "build",
+        "testTargetName": "test"
+      }
+    }
+  ],
+  "nxCloudUrl": "https://cloud.nx.app"
+}

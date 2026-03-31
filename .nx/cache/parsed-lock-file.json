@@ -1377,6 +1377,33 @@
         "hash": "10c0/14a0112bd59615eef9e3446fea018045720cd3da85a98f801a685a818b0d96ef2a1f7227e8d271def546b2e2a0fe91ef915ba9dc912ab7967d2317b1a051d66b"
       }
     },
+    "npm:@module-federation/nextjs-mf": {
+      "type": "npm",
+      "name": "npm:@module-federation/nextjs-mf",
+      "data": {
+        "version": "7.0.8",
+        "packageName": "@module-federation/nextjs-mf",
+        "hash": "10c0/84c13664e8b0b727bd879aa5c50b832918a20a1eb22f549b6071c4acddca8c4113a726a15eaa5d64b760c947c149e7aace864265fd3d6a6745bb84bb199dd4b4"
+      }
+    },
+    "npm:@module-federation/node": {
+      "type": "npm",
+      "name": "npm:@module-federation/node",
+      "data": {
+        "version": "1.0.7",
+        "packageName": "@module-federation/node",
+        "hash": "10c0/24cef288a9d46f11ab53d1cb6075f07d6c9c81df121b89ebf418ed11ce981377dec991b06632abb4f50ffba5a2306ac21f071ef2f19c1a3129cf1a11ebba9068"
+      }
+    },
+    "npm:@module-federation/utilities": {
+      "type": "npm",
+      "name": "npm:@module-federation/utilities",
+      "data": {
+        "version": "2.0.6",
+        "packageName": "@module-federation/utilities",
+        "hash": "10c0/34fda06a998e65387b0cc99009216be37896e1f3e5417ac58e05a7a3b9a7cf560f6c173ec76ff1995cd8ee7c52cf155a471814a96fdedd950709a3806206fde3"
+      }
+    },
     "npm:@next/env": {
       "type": "npm",
       "name": "npm:@next/env",
@@ -4563,6 +4590,15 @@
         "hash": "10c0/5d317306acb13e6590e28e27924c754163946a2480de11865c991a3a7eed4315cd3fba378b543ca145829569eefe9b899f3d84bb09870f675ae60bc924b01ceb"
       }
     },
+    "npm:encoding": {
+      "type": "npm",
+      "name": "npm:encoding",
+      "data": {
+        "version": "0.1.13",
+        "packageName": "encoding",
+        "hash": "10c0/36d938712ff00fe1f4bac88b43bcffb5930c1efa57bbcdca9d67e1d9d6c57cfb1200fb01efe0f3109b2ce99b231f90779532814a81370a1bd3274a0f58585039"
+      }
+    },
     "npm:end-of-stream": {
       "type": "npm",
       "name": "npm:end-of-stream",
@@ -4851,13 +4887,22 @@
         "hash": "10c0/12be11ef62fb9817314d790089a0a49fae4e1b50594135dcb8076312b7d7e470884b5100d249b28c18581b7fd52f8b485689ffae22a11ed9ec17377a33a08f84"
       }
     },
-    "npm:eventemitter3": {
+    "npm:eventemitter3@4.0.7": {
       "type": "npm",
-      "name": "npm:eventemitter3",
+      "name": "npm:eventemitter3@4.0.7",
       "data": {
         "version": "4.0.7",
         "packageName": "eventemitter3",
         "hash": "10c0/5f6d97cbcbac47be798e6355e3a7639a84ee1f7d9b199a07017f1d2f1e2fe236004d14fa5dfaeba661f94ea57805385e326236a6debbc7145c8877fbc0297c6b"
+      }
+    },
+    "npm:eventemitter3": {
+      "type": "npm",
+      "name": "npm:eventemitter3",
+      "data": {
+        "version": "5.0.4",
+        "packageName": "eventemitter3",
+        "hash": "10c0/575b8cac8d709e1473da46f8f15ef311b57ff7609445a7c71af5cd42598583eee6f098fa7a593e30f27e94b8865642baa0689e8fa97c016f742abdb3b1bf6d9a"
       }
     },
     "npm:events": {
@@ -7326,6 +7371,24 @@
         "hash": "10c0/fb32a206276d608037fa1bcd7e9921e177fe992fc610d098aa3128baca3c0050fc1e014fa007e9b3874cf865ddb4f5bd9f43ccb7cbbbe4efaff6a83e920b17e9"
       }
     },
+    "npm:node-fetch@2.6.9": {
+      "type": "npm",
+      "name": "npm:node-fetch@2.6.9",
+      "data": {
+        "version": "2.6.9",
+        "packageName": "node-fetch",
+        "hash": "10c0/7a4a0e027e509b741bec4172749103f158da23187ff251cb988dd54ea7267519c3fa11838971da0f5f3c54e79da3174e7bd72aa2179c9f69887511ece16c9c0f"
+      }
+    },
+    "npm:node-fetch": {
+      "type": "npm",
+      "name": "npm:node-fetch",
+      "data": {
+        "version": "2.7.0",
+        "packageName": "node-fetch",
+        "hash": "10c0/b55786b6028208e6fbe594ccccc213cab67a72899c9234eb59dba51062a299ea853210fcf526998eaa2867b0963ad72338824450905679ff0fa304b8c5093ae8"
+      }
+    },
     "npm:node-forge": {
       "type": "npm",
       "name": "npm:node-forge",
@@ -9522,13 +9585,22 @@
         "hash": "10c0/aca7ff96054f367d53d1e813e62ceb7dd2eda25d7752058a74d64b7266fd07be75908f3753a32ccf866a2f997604b414cfb1916d6e7f69bc64d9d9939b0d6c45"
       }
     },
-    "npm:tr46": {
+    "npm:tr46@3.0.0": {
       "type": "npm",
-      "name": "npm:tr46",
+      "name": "npm:tr46@3.0.0",
       "data": {
         "version": "3.0.0",
         "packageName": "tr46",
         "hash": "10c0/cdc47cad3a9d0b6cb293e39ccb1066695ae6fdd39b9e4f351b010835a1f8b4f3a6dc3a55e896b421371187f22b48d7dac1b693de4f6551bdef7b6ab6735dfe3b"
+      }
+    },
+    "npm:tr46": {
+      "type": "npm",
+      "name": "npm:tr46",
+      "data": {
+        "version": "0.0.3",
+        "packageName": "tr46",
+        "hash": "10c0/047cb209a6b60c742f05c9d3ace8fa510bff609995c129a37ace03476a9b12db4dbf975e74600830ef0796e18882b2381fb5fb1f6b4f96b832c374de3ab91a11"
       }
     },
     "npm:ts-api-utils": {
@@ -9891,6 +9963,15 @@
         "hash": "10c0/5b61ca583a95e2dd85d7078400190efd452e05751a64accb8c06ce4db65d7e0b0cde9917d705e826a2e05cc2548f61efde115ffa374c3e436d04be45c889e5b4"
       }
     },
+    "npm:webidl-conversions@3.0.1": {
+      "type": "npm",
+      "name": "npm:webidl-conversions@3.0.1",
+      "data": {
+        "version": "3.0.1",
+        "packageName": "webidl-conversions",
+        "hash": "10c0/5612d5f3e54760a797052eb4927f0ddc01383550f542ccd33d5238cfd65aeed392a45ad38364970d0a0f4fea32e1f4d231b3d8dac4a3bdd385e5cf802ae097db"
+      }
+    },
     "npm:webidl-conversions": {
       "type": "npm",
       "name": "npm:webidl-conversions",
@@ -9934,6 +10015,15 @@
         "version": "3.0.0",
         "packageName": "webpack-node-externals",
         "hash": "10c0/9f645a4dc8e122dac43cdc8c1367d4b44af20c79632438b633acc1b4fe64ea7ba1ad6ab61bd0fc46e1b873158c48d8c7a25a489cdab1f31299f00eb3b81cfc61"
+      }
+    },
+    "npm:webpack-sources@3.2.3": {
+      "type": "npm",
+      "name": "npm:webpack-sources@3.2.3",
+      "data": {
+        "version": "3.2.3",
+        "packageName": "webpack-sources",
+        "hash": "10c0/2ef63d77c4fad39de4a6db17323d75eb92897b32674e97d76f0a1e87c003882fc038571266ad0ef581ac734cbe20952912aaa26155f1905e96ce251adbb1eb4e"
       }
     },
     "npm:webpack-sources": {
@@ -9999,13 +10089,22 @@
         "hash": "10c0/323895a1cda29a5fb0b9ca82831d2c316309fede0365047c4c323073e3239067a304a09a1f4b123b9532641ab604203f33a1403b5ca6a62ef405bcd7a204080f"
       }
     },
-    "npm:whatwg-url": {
+    "npm:whatwg-url@11.0.0": {
       "type": "npm",
-      "name": "npm:whatwg-url",
+      "name": "npm:whatwg-url@11.0.0",
       "data": {
         "version": "11.0.0",
         "packageName": "whatwg-url",
         "hash": "10c0/f7ec264976d7c725e0696fcaf9ebe056e14422eacbf92fdbb4462034609cba7d0c85ffa1aab05e9309d42969bcf04632ba5ed3f3882c516d7b093053315bf4c1"
+      }
+    },
+    "npm:whatwg-url": {
+      "type": "npm",
+      "name": "npm:whatwg-url",
+      "data": {
+        "version": "5.0.0",
+        "packageName": "whatwg-url",
+        "hash": "10c0/1588bed84d10b72d5eec1d0faa0722ba1962f1821e7539c535558fb5398d223b0c50d8acab950b8c488b4ba69043fd833cc2697056b167d8ad46fac3995a55d5"
       }
     },
     "npm:which-boxed-primitive": {
@@ -13732,6 +13831,66 @@
       "type": "static"
     },
     {
+      "source": "npm:@module-federation/nextjs-mf",
+      "target": "npm:@module-federation/node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/nextjs-mf",
+      "target": "npm:@module-federation/utilities",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/nextjs-mf",
+      "target": "npm:encoding",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/nextjs-mf",
+      "target": "npm:eventemitter3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/nextjs-mf",
+      "target": "npm:fast-glob",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/nextjs-mf",
+      "target": "npm:node-fetch@2.6.9",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/nextjs-mf",
+      "target": "npm:webpack-sources",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/node",
+      "target": "npm:@module-federation/utilities",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/node",
+      "target": "npm:encoding",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/node",
+      "target": "npm:node-fetch",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/node",
+      "target": "npm:webpack-sources@3.2.3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@module-federation/utilities",
+      "target": "npm:webpack-sources@3.2.3",
+      "type": "static"
+    },
+    {
       "source": "npm:@nodelib/fs.scandir",
       "target": "npm:@nodelib/fs.stat",
       "type": "static"
@@ -17258,7 +17417,7 @@
     },
     {
       "source": "npm:data-urls",
-      "target": "npm:whatwg-url",
+      "target": "npm:whatwg-url@11.0.0",
       "type": "static"
     },
     {
@@ -17549,6 +17708,16 @@
     {
       "source": "npm:ejs",
       "target": "npm:jake",
+      "type": "static"
+    },
+    {
+      "source": "npm:encoding",
+      "target": "npm:iconv-lite",
+      "type": "static"
+    },
+    {
+      "source": "npm:encoding",
+      "target": "npm:iconv-lite",
       "type": "static"
     },
     {
@@ -18223,6 +18392,31 @@
     },
     {
       "source": "npm:fast-glob@3.2.7",
+      "target": "npm:micromatch",
+      "type": "static"
+    },
+    {
+      "source": "npm:fast-glob",
+      "target": "npm:@nodelib/fs.stat",
+      "type": "static"
+    },
+    {
+      "source": "npm:fast-glob",
+      "target": "npm:@nodelib/fs.walk",
+      "type": "static"
+    },
+    {
+      "source": "npm:fast-glob",
+      "target": "npm:glob-parent",
+      "type": "static"
+    },
+    {
+      "source": "npm:fast-glob",
+      "target": "npm:merge2",
+      "type": "static"
+    },
+    {
+      "source": "npm:fast-glob",
       "target": "npm:micromatch",
       "type": "static"
     },
@@ -19378,7 +19572,7 @@
     },
     {
       "source": "npm:http-proxy",
-      "target": "npm:eventemitter3",
+      "target": "npm:eventemitter3@4.0.7",
       "type": "static"
     },
     {
@@ -19474,6 +19668,11 @@
     {
       "source": "npm:https-proxy-agent",
       "target": "npm:debug",
+      "type": "static"
+    },
+    {
+      "source": "npm:iconv-lite",
+      "target": "npm:safer-buffer",
       "type": "static"
     },
     {
@@ -21133,7 +21332,7 @@
     },
     {
       "source": "npm:jsdom",
-      "target": "npm:whatwg-url",
+      "target": "npm:whatwg-url@11.0.0",
       "type": "static"
     },
     {
@@ -21679,6 +21878,16 @@
     {
       "source": "npm:node-addon-api",
       "target": "npm:node-gyp",
+      "type": "static"
+    },
+    {
+      "source": "npm:node-fetch@2.6.9",
+      "target": "npm:whatwg-url",
+      "type": "static"
+    },
+    {
+      "source": "npm:node-fetch",
+      "target": "npm:whatwg-url",
       "type": "static"
     },
     {
@@ -24102,7 +24311,7 @@
       "type": "static"
     },
     {
-      "source": "npm:tr46",
+      "source": "npm:tr46@3.0.0",
       "target": "npm:punycode",
       "type": "static"
     },
@@ -24712,13 +24921,23 @@
       "type": "static"
     },
     {
+      "source": "npm:whatwg-url@11.0.0",
+      "target": "npm:tr46@3.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:whatwg-url@11.0.0",
+      "target": "npm:webidl-conversions",
+      "type": "static"
+    },
+    {
       "source": "npm:whatwg-url",
       "target": "npm:tr46",
       "type": "static"
     },
     {
       "source": "npm:whatwg-url",
-      "target": "npm:webidl-conversions",
+      "target": "npm:webidl-conversions@3.0.1",
       "type": "static"
     },
     {

@@ -17,6 +17,7 @@
     "lint": "nx run-many --targets=lint --all"
   },
   "devDependencies": {
+    "@module-federation/nextjs-mf": "^7.0.0",
     "@nx/next": "18.2.4",
     "@nx/react": "18.2.4",
     "@nx/workspace": "18.2.4",
